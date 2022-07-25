@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
-const initialCredentials = [{ user: "", password: "" }];
+// const initialCredentials = [{ user: "", password: "" }];
 const LoginForm = () => {
-  const [credentials, setCredentials] = useState(initialCredentials);
+  // const [credentials, setCredentials] = useState(initialCredentials);
 
   return <div>LoginForm</div>;
 };
